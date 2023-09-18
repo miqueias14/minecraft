@@ -1,0 +1,154 @@
+/* Estilos para o menu hambúrguer responsivo */
+body {
+
+  background-color: #000;
+  background-image: url(img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+main {
+  background-color: #fff;
+
+  border-radius: 30px;
+
+  display: block;
+  padding: 10px;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.menu li {
+    margin: 0 15px;
+    margin-left: ;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para o ícone do menu hambúrguer */
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+ .image-container {
+   
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img {
+    width: 50px;
+   height: auto;
+    margin: 0 10px; /* Espaço entre as imagens */
+  }
+ 
+ 
+ .button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border-radius:5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
+  /* Estilos para o conteúdo */
+  #content {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 5px;
+    
+  }
+ 
+  
+  .oxente {
+    text-align: center;
+    margin: 10px;
+  }
+  /*striming*/
+  .strlive{
+    display:flex;
+    background-color: #e2e1e1;
+   border-radius:6px;
+  }
+  p{
+    font-size: 17px;
+    font-family: Arial;
+    margin: 5px;
+  }
+a{
+ 
+  color: #333;
+}
+.titlestrem {
+  font-size:30px;
+  
+}
+.imgstrem{
+  margin-right: 10px;
+  width: 20px;
+  height: auto;
+}
+/* Estilos para dispositivos menores (responsivo) */
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        padding: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+       
+        
+   
+        width: 100%;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+     .button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+}

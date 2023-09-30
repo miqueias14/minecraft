@@ -1,0 +1,175 @@
+/* Estilos para o menu hambúrguer responsivo */
+
+
+
+body {
+
+  background-color: #0D0D0D;
+  background-image: url(/imgem/img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+ 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0D0D0D;
+    color: #D9D9D9;
+}
+main {
+  background-color: #D9D9D9;
+  border-radius: 30px;
+  display: block;
+  padding: 20px;
+  margin: 5%;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    
+}
+
+.menu li {
+    margin: 0 15px;
+   
+}
+
+
+.menu a {
+    text-decoration: none;
+    color: #D9D9D9;
+}
+
+/* Estilos para o ícone do menu hambúrguer */
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #D9D9D9;
+    margin: 3px 0;
+}
+ .image-container {
+   
+    display: flex;
+    margin:30px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container img {
+    width: 50px;
+   height: auto;
+    margin: 0 10px; /* Espaço entre as imagens */
+  }
+ 
+ 
+ .button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border-radius:5px;
+    color: #D9D9D9;
+    cursor: pointer;
+    margin: 5px;
+}
+  /* Estilos para o conteúdo */
+  #content {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 5px;
+    
+  }
+ 
+  
+  .oxente {
+    text-align: center;
+    margin: 10px;
+  }
+  /*striming*/
+ /* Estilos para o contêiner com a classe "strlive" */
+.strlive {
+  display: flex;
+  background-color: #e2e1e1;
+  border-radius: 6px;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+}
+
+/* Estilos para parágrafos (<p>) */
+p {
+  font-size: 17px;
+  font-family: Arial;
+  margin: 5px;
+}
+
+/* Estilos para links (<a>) */
+a {
+  color: #0D0D0D;
+}
+
+/* Estilos para elementos com a classe "titlestrem" */
+.titlestrem {
+  font-size: 30px;
+}
+
+/* Estilos para elementos com a classe "imgstrem" */
+.imgstrem {
+  margin-right: 10px;
+  width: 20px;
+  height: auto;
+}
+/* Estilos para dispositivos menores (responsivo) */
+@media screen and (max-width: 768px) {
+  main {
+    background-color: #D9D9D9;
+    border-radius: 30px;
+    display: block;
+    padding: 20px;
+    margin: 2%;
+  }
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        padding: 20px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+       
+        
+   
+        width: 100%;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+     .button {
+    padding: 8px 16px;
+    background-color: #29C7D9;
+    color: #D9D9D9;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+}

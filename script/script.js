@@ -91,7 +91,7 @@ function changeContent(buttonNumber) {
       content.innerHTML = `   <div style="display: grid; justify-content: center; ">
       <div style="margin-top: 10px;">
           <div class="strlive">
-              <img src="/imgem/zaroistr.png">
+              <img class="strimge" src="/imgem/zaroistr.png">
               <div>
                   <p class="titlestrem">zaroi</P>
                   <p><img src="/imgem/twitchlogo.png" class="imgstrem"><a href="https://www.twitch.tv/z4roi"target="_blank">Twitch</p>
@@ -104,7 +104,7 @@ function changeContent(buttonNumber) {
       </div>
       <div style="margin-top: 10px; ">
           <div class="strlive">
-              <img src="/imgem/0mcds0.png">
+              <img class="strimge" src="/imgem/0mcds0.png" >
               <div>
                   <p class="titlestrem">0MCdS0</P>
                   <p><img src="/imgem/twitchlogo.png" class="imgstrem"><a href="https://www.twitch.tv/0mcds0?sr=a"target="_blank">Twitch</p>
@@ -121,7 +121,8 @@ function changeContent(buttonNumber) {
 
 break;
     case 4:
-      content.innerHTML =  `<div style="text-align: center;">
+      content.innerHTML =  `
+    <div style="text-align: center;">
                 
       <h2>apoierealms@gmail.com</h2>
       

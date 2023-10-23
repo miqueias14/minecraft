@@ -80,7 +80,7 @@ function changeContent(buttonNumber) {
   
   
       <div class="image-container">
-          <a href="https://discord.gg/rZAAt3fY">
+          <a href="https://discord.gg/uZ9MRuC6cN">
             <img src="/imgem/discord.png" alt="Discord">
             <p>Discord</p>
           </a>
